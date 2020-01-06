@@ -3,7 +3,12 @@ const imprimirSoma = function (a,b){
     console.log(a + b)
 }
 
+const imprimirMultiplicacao = function (c,d){
+    console.log(c * d)
+}
+
 imprimirSoma(2,3)
+imprimirMultiplicacao(5,5)
 
 //arrow fuction
 
