@@ -9,7 +9,10 @@ console.log(aprovados[2])
 console.log(aprovados[3])
 
 aprovados[3] = 'Paulo'
-aprovados.push('Daniele')
+aprovados.push({
+    nome: 'teste',
+    idade: '18'
+})
 
 console.log(aprovados)
 
