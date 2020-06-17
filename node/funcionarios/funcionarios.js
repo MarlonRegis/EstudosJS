@@ -19,3 +19,4 @@ axios.get(http).then(resposta => {
 
     console.log(this.result);
 })
+console.log(global)
